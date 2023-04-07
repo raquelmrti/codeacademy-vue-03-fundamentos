@@ -1,24 +1,7 @@
-# 03-fundamentos
+# My First Vue Project // Fernando Herrera Udemy Course
 
-## Project setup
-```
-yarn install
-```
+This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a experto](https://www.udemy.com/course/vuejs-fh/). Here I will log my progress through it and possibly add some notes.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### **07/04/2023:**
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Create `Counter` component and load it into the main page.
