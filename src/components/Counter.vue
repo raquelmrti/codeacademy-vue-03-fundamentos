@@ -1,12 +1,17 @@
 <template>
 <h2>Counter</h2>
-<p>10</p>
+<p> {{ counter }} <sup>2</sup></p>
 
 </template>
 
 <script>
 export default {
   // name: "Patito"
+  data() {
+    return {
+      counter: 5
+    }
+  },
 }
 </script>
 

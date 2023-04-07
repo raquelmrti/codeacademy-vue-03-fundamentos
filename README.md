@@ -5,3 +5,4 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 ### **07/04/2023:**
 
 - Create `Counter` component and load it into the main page.
+- Add a property ('counter: 5') to the data object of the component. The properties in this object are reactive, which means Vue will keep track of any changes to them.
