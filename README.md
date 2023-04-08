@@ -15,3 +15,4 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 - Modified the `props` of `Counter`. Instead of an array of strings, we made it an object. In this object, the props can also be objects where we can define their type and other things, such as their default value or if it's even required for them to have a value.
 - Added the `start` prop to `Counter`.
   ⚠️ **Note:** In order to pass a value to a prop that's NOT a string, we must use the `v-bind` directive. For example: `<Counter :start="10" />`.
+- Added a custom validator function to the `start` prop.
