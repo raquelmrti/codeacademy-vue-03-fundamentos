@@ -1,7 +1,9 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
 
-  <Counter />
+  <Counter title="Entraron" countery="5"/>
+
+  <Counter countery="45"/>
 
 
 </template>
