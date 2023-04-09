@@ -22,3 +22,4 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 - Commented out all the `Counter` code and created `Indecision` component (the project is now Indecision App, which will answer any yes/no questions that the user inputs).
 - Added a watch property to the `Indecision` component, which will watch `question` (the input text) and check if it contains a question mark.
 - Added a fetch request to the "yes/no.wtf" API in the `getAnswer` method, which will get a yes or no answer whenever the user asks a question (as long as it has a question mark). It also receives a gif that we'll use for the background.
+- Polished the project.
