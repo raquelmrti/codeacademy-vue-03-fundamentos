@@ -4,7 +4,7 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 
 ### **07/04/2023:**
 
-- Created `Counter` component and load it into the main page.
+- Created `Counter` component and loaded it in `App`.
 - Added a property ('counter: 5') to the data object of the component. The properties in this object are reactive, which means Vue will keep track of any changes to them.
 - Added a computed property ('squareCounted'). Computed properties are similar to methods, but they're used to change the presentation of existing data while methods are used to change data itself.
 - Added `increase` and `decrease` methods.
@@ -16,3 +16,7 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 - Added the `start` prop to `Counter`.
   ⚠️ **Note:** In order to pass a value to a prop that's NOT a string, we must use the `v-bind` directive. For example: `<Counter :start="10" />`.
 - Added a custom validator function to the `start` prop.
+
+### **09/04/2023:**
+
+- Commented out all the `Counter` code and created `Indecision` component (the project is now Indecision App, which will answer any yes/no questions that the user inputs).
