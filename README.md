@@ -20,3 +20,4 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 ### **09/04/2023:**
 
 - Commented out all the `Counter` code and created `Indecision` component (the project is now Indecision App, which will answer any yes/no questions that the user inputs).
+- Added a watch property to the `Indecision` component, which will watch `question` (the input text) and check if it contains a question mark.
