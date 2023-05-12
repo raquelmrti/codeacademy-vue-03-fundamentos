@@ -23,3 +23,7 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 - Added a watch property to the `Indecision` component, which will watch `question` (the input text) and check if it contains a question mark.
 - Added a fetch request to the "yes/no.wtf" API in the `getAnswer` method, which will get a yes or no answer whenever the user asks a question (as long as it has a question mark). It also receives a gif that we'll use for the background.
 - Polished the project.
+
+### **12/05/2023:**
+
+- Started unit testing. We made an example file to try doing my first test.
