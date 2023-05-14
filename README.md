@@ -27,3 +27,16 @@ This is the first project in Fernando Herrera's Udemy Course, [Vue.js: De cero a
 ### **12/05/2023:**
 
 - Started unit testing. We made an example file to try doing my first test.
+
+### **13/05/2023:**
+
+- Started testing `Counter`.Things learned:
+  - `shallowMount(component)` to create a wrapper that contains the component we're testing. We need it to reference its contents.
+  - `beforeEach()` to make it do something before each test is performed (useful to create an unmodified wrapper for every test.)
+  - `wrapper.find("[data-testid='id']")` to get an element with a `data-testid attribute` (better than getting it by class/id since those can change for a variety of reasons, while the data attribute has a specific testing intent.)
+  - `element.trigger("click")` to simulate a click event.
+  - `wrapper.props()` to access the props of the component.
+
+  ### **14/05/2023:**
+
+- Finished testing `Counter`.
